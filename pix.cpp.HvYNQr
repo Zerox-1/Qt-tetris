@@ -1,0 +1,11 @@
+#include "pix.h"
+
+pix::pix(QGraphicsItem *parent)
+{
+    setPixmap(QPixmap(":/images/pix.png"));
+}
+
+void pix::setmyPos(int x, int y)
+{
+    setPos(x*20,y*20);
+}
